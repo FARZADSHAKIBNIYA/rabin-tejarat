@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.slider {
+    display: flex;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    margin: 1rem 0;
+}
+.slide {
+    flex: 0 0 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    font-size: 2rem;
+}
+.slide.active {
+    display: flex;
+}
+.welcome {
+    text-align: center;
+    padding: 2rem;
+}
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.logo {
+    max-width: 120px;
+    display: block;
+    margin: 0 auto 1rem;
+}
